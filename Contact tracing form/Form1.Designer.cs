@@ -29,6 +29,7 @@ namespace Contact_tracing_form
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -38,7 +39,6 @@ namespace Contact_tracing_form
             this.addresstxt = new System.Windows.Forms.TextBox();
             this.emailtxt = new System.Windows.Forms.TextBox();
             this.contacttxt = new System.Windows.Forms.TextBox();
-            this.timetxt = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -58,6 +58,10 @@ namespace Contact_tracing_form
             this.yes4 = new System.Windows.Forms.CheckBox();
             this.no5 = new System.Windows.Forms.CheckBox();
             this.yes5 = new System.Windows.Forms.CheckBox();
+            this.timer = new System.Windows.Forms.Label();
+            this.tickticktime = new System.Windows.Forms.Timer(this.components);
+            this.label13 = new System.Windows.Forms.Label();
+            this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // label1
@@ -142,19 +146,11 @@ namespace Contact_tracing_form
             this.contacttxt.Size = new System.Drawing.Size(487, 23);
             this.contacttxt.TabIndex = 8;
             // 
-            // timetxt
-            // 
-            this.timetxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.timetxt.Location = new System.Drawing.Point(208, 244);
-            this.timetxt.Name = "timetxt";
-            this.timetxt.Size = new System.Drawing.Size(487, 23);
-            this.timetxt.TabIndex = 10;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(150, 245);
+            this.label6.Location = new System.Drawing.Point(488, 245);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(52, 20);
             this.label6.TabIndex = 9;
@@ -172,18 +168,18 @@ namespace Contact_tracing_form
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(600, 580);
+            this.button1.Location = new System.Drawing.Point(564, 580);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(87, 35);
             this.button1.TabIndex = 12;
-            this.button1.Text = "Reset";
+            this.button1.Text = "Clear";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(697, 580);
+            this.button2.Location = new System.Drawing.Point(657, 580);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(87, 35);
+            this.button2.Size = new System.Drawing.Size(127, 35);
             this.button2.TabIndex = 13;
             this.button2.Text = "Submit";
             this.button2.UseVisualStyleBackColor = true;
@@ -349,11 +345,47 @@ namespace Contact_tracing_form
             this.yes5.Text = "Yes";
             this.yes5.UseVisualStyleBackColor = true;
             // 
+            // timer
+            // 
+            this.timer.AutoSize = true;
+            this.timer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.timer.Location = new System.Drawing.Point(549, 245);
+            this.timer.Name = "timer";
+            this.timer.Size = new System.Drawing.Size(0, 20);
+            this.timer.TabIndex = 29;
+            // 
+            // tickticktime
+            // 
+            this.tickticktime.Enabled = true;
+            this.tickticktime.Interval = 1;
+            this.tickticktime.Tick += new System.EventHandler(this.time);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(149, 245);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(53, 20);
+            this.label13.TabIndex = 30;
+            this.label13.Text = "Date:";
+            // 
+            // dateTimePicker
+            // 
+            this.dateTimePicker.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.dateTimePicker.Location = new System.Drawing.Point(208, 245);
+            this.dateTimePicker.Name = "dateTimePicker";
+            this.dateTimePicker.Size = new System.Drawing.Size(253, 23);
+            this.dateTimePicker.TabIndex = 31;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 627);
+            this.Controls.Add(this.dateTimePicker);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.timer);
             this.Controls.Add(this.no5);
             this.Controls.Add(this.yes5);
             this.Controls.Add(this.no4);
@@ -372,7 +404,6 @@ namespace Contact_tracing_form
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.timetxt);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.contacttxt);
             this.Controls.Add(this.emailtxt);
@@ -404,7 +435,6 @@ namespace Contact_tracing_form
         private System.Windows.Forms.TextBox addresstxt;
         private System.Windows.Forms.TextBox emailtxt;
         private System.Windows.Forms.TextBox contacttxt;
-        private System.Windows.Forms.TextBox timetxt;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button1;
@@ -424,6 +454,10 @@ namespace Contact_tracing_form
         private System.Windows.Forms.CheckBox yes4;
         private System.Windows.Forms.CheckBox no5;
         private System.Windows.Forms.CheckBox yes5;
+        private System.Windows.Forms.Label timer;
+        private System.Windows.Forms.Timer tickticktime;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.DateTimePicker dateTimePicker;
     }
 }
 

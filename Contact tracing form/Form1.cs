@@ -28,6 +28,8 @@ namespace Contact_tracing_form
             ctf.WriteLine("Home Address: " + addresstxt.Text);
             ctf.WriteLine("Email Address: " + emailtxt.Text);
             ctf.WriteLine("Contact Number: " + contacttxt.Text);
+            ctf.WriteLine("Date: " + dateTimePicker.Text);
+            ctf.WriteLine("Time: " + DateTime.Now.ToString("h:mm:ss tt"));
             ctf.WriteLine("");
             ctf.WriteLine("COVID-19 Health Check");
             ctf.WriteLine("");
@@ -75,7 +77,7 @@ namespace Contact_tracing_form
                 ctf.WriteLine("Have you been Diagnosed with COVID-19?: NO");
             }
             
-            ctf.WriteLine("__________________________________________________");
+            ctf.WriteLine("__________________________________________________________________________");
             ctf.WriteLine("");
             ctf.Close();
 
@@ -83,6 +85,11 @@ namespace Contact_tracing_form
 
         }
 
+        
 
+        private void time(object sender, EventArgs e)
+        {
+            timer.Text = DateTime.Now.ToLongTimeString();
+        }
     }
 }
