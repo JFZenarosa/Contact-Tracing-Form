@@ -48,16 +48,16 @@ namespace Contact_tracing_form
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.yes1 = new System.Windows.Forms.CheckBox();
+            this.no1 = new System.Windows.Forms.CheckBox();
+            this.no2 = new System.Windows.Forms.CheckBox();
+            this.yes2 = new System.Windows.Forms.CheckBox();
+            this.no3 = new System.Windows.Forms.CheckBox();
+            this.yes3 = new System.Windows.Forms.CheckBox();
+            this.no4 = new System.Windows.Forms.CheckBox();
+            this.yes4 = new System.Windows.Forms.CheckBox();
+            this.no5 = new System.Windows.Forms.CheckBox();
+            this.yes5 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -239,131 +239,131 @@ namespace Contact_tracing_form
             this.label12.TabIndex = 18;
             this.label12.Text = "Have you been Diagnosed with COVID-19?";
             // 
-            // checkBox1
+            // yes1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(564, 362);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(56, 24);
-            this.checkBox1.TabIndex = 19;
-            this.checkBox1.Text = "Yes";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.yes1.AutoSize = true;
+            this.yes1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yes1.Location = new System.Drawing.Point(564, 362);
+            this.yes1.Name = "yes1";
+            this.yes1.Size = new System.Drawing.Size(56, 24);
+            this.yes1.TabIndex = 19;
+            this.yes1.Text = "Yes";
+            this.yes1.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // no1
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(639, 362);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(48, 24);
-            this.checkBox2.TabIndex = 20;
-            this.checkBox2.Text = "No";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.no1.AutoSize = true;
+            this.no1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.no1.Location = new System.Drawing.Point(639, 362);
+            this.no1.Name = "no1";
+            this.no1.Size = new System.Drawing.Size(48, 24);
+            this.no1.TabIndex = 20;
+            this.no1.Text = "No";
+            this.no1.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // no2
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(639, 393);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(48, 24);
-            this.checkBox3.TabIndex = 22;
-            this.checkBox3.Text = "No";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.no2.AutoSize = true;
+            this.no2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.no2.Location = new System.Drawing.Point(639, 393);
+            this.no2.Name = "no2";
+            this.no2.Size = new System.Drawing.Size(48, 24);
+            this.no2.TabIndex = 22;
+            this.no2.Text = "No";
+            this.no2.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // yes2
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(564, 393);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(56, 24);
-            this.checkBox4.TabIndex = 21;
-            this.checkBox4.Text = "Yes";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.yes2.AutoSize = true;
+            this.yes2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yes2.Location = new System.Drawing.Point(564, 393);
+            this.yes2.Name = "yes2";
+            this.yes2.Size = new System.Drawing.Size(56, 24);
+            this.yes2.TabIndex = 21;
+            this.yes2.Text = "Yes";
+            this.yes2.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // no3
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.Location = new System.Drawing.Point(639, 424);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(48, 24);
-            this.checkBox5.TabIndex = 24;
-            this.checkBox5.Text = "No";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.no3.AutoSize = true;
+            this.no3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.no3.Location = new System.Drawing.Point(639, 424);
+            this.no3.Name = "no3";
+            this.no3.Size = new System.Drawing.Size(48, 24);
+            this.no3.TabIndex = 24;
+            this.no3.Text = "No";
+            this.no3.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // yes3
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.Location = new System.Drawing.Point(564, 424);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(56, 24);
-            this.checkBox6.TabIndex = 23;
-            this.checkBox6.Text = "Yes";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.yes3.AutoSize = true;
+            this.yes3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yes3.Location = new System.Drawing.Point(564, 424);
+            this.yes3.Name = "yes3";
+            this.yes3.Size = new System.Drawing.Size(56, 24);
+            this.yes3.TabIndex = 23;
+            this.yes3.Text = "Yes";
+            this.yes3.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // no4
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.Location = new System.Drawing.Point(639, 455);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(48, 24);
-            this.checkBox7.TabIndex = 26;
-            this.checkBox7.Text = "No";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.no4.AutoSize = true;
+            this.no4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.no4.Location = new System.Drawing.Point(639, 455);
+            this.no4.Name = "no4";
+            this.no4.Size = new System.Drawing.Size(48, 24);
+            this.no4.TabIndex = 26;
+            this.no4.Text = "No";
+            this.no4.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // yes4
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox8.Location = new System.Drawing.Point(564, 455);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(56, 24);
-            this.checkBox8.TabIndex = 25;
-            this.checkBox8.Text = "Yes";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.yes4.AutoSize = true;
+            this.yes4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yes4.Location = new System.Drawing.Point(564, 455);
+            this.yes4.Name = "yes4";
+            this.yes4.Size = new System.Drawing.Size(56, 24);
+            this.yes4.TabIndex = 25;
+            this.yes4.Text = "Yes";
+            this.yes4.UseVisualStyleBackColor = true;
             // 
-            // checkBox9
+            // no5
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox9.Location = new System.Drawing.Point(639, 486);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(48, 24);
-            this.checkBox9.TabIndex = 28;
-            this.checkBox9.Text = "No";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.no5.AutoSize = true;
+            this.no5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.no5.Location = new System.Drawing.Point(639, 486);
+            this.no5.Name = "no5";
+            this.no5.Size = new System.Drawing.Size(48, 24);
+            this.no5.TabIndex = 28;
+            this.no5.Text = "No";
+            this.no5.UseVisualStyleBackColor = true;
             // 
-            // checkBox10
+            // yes5
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox10.Location = new System.Drawing.Point(564, 486);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(56, 24);
-            this.checkBox10.TabIndex = 27;
-            this.checkBox10.Text = "Yes";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.yes5.AutoSize = true;
+            this.yes5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yes5.Location = new System.Drawing.Point(564, 486);
+            this.yes5.Name = "yes5";
+            this.yes5.Size = new System.Drawing.Size(56, 24);
+            this.yes5.TabIndex = 27;
+            this.yes5.Text = "Yes";
+            this.yes5.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 627);
-            this.Controls.Add(this.checkBox9);
-            this.Controls.Add(this.checkBox10);
-            this.Controls.Add(this.checkBox7);
-            this.Controls.Add(this.checkBox8);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox6);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.no5);
+            this.Controls.Add(this.yes5);
+            this.Controls.Add(this.no4);
+            this.Controls.Add(this.yes4);
+            this.Controls.Add(this.no3);
+            this.Controls.Add(this.yes3);
+            this.Controls.Add(this.no2);
+            this.Controls.Add(this.yes2);
+            this.Controls.Add(this.no1);
+            this.Controls.Add(this.yes1);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -414,16 +414,16 @@ namespace Contact_tracing_form
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox10;
+        private System.Windows.Forms.CheckBox yes1;
+        private System.Windows.Forms.CheckBox no1;
+        private System.Windows.Forms.CheckBox no2;
+        private System.Windows.Forms.CheckBox yes2;
+        private System.Windows.Forms.CheckBox no3;
+        private System.Windows.Forms.CheckBox yes3;
+        private System.Windows.Forms.CheckBox no4;
+        private System.Windows.Forms.CheckBox yes4;
+        private System.Windows.Forms.CheckBox no5;
+        private System.Windows.Forms.CheckBox yes5;
     }
 }
 

@@ -21,7 +21,7 @@ namespace Contact_tracing_form
         private void button2_Click(object sender, EventArgs e)
         {
             StreamWriter ctf;
-            ctf = File.CreateText(@"C:\\Example\Contact_Tracing_Form.txt");
+            ctf = File.AppendText(@"C:\\Example\Contact_Tracing_Form.txt");
             ctf.WriteLine("Mercury Drugs Contact Tracing Form");
             ctf.WriteLine("");
             ctf.WriteLine("Full Name: " + nametxt.Text);
@@ -32,13 +32,57 @@ namespace Contact_tracing_form
             ctf.WriteLine("COVID-19 Health Check");
             ctf.WriteLine("");
             
+            if(yes1.CheckState == CheckState.Checked)
+            {
+                ctf.WriteLine("Have you been outside of the country lately?: YES");
+            } else
+            {
+                ctf.WriteLine("Have you been outside of the country lately?: NO");
+            }
+
+            if(yes2.CheckState == CheckState.Checked)
+            {
+                ctf.WriteLine("Have you been in contact with a person with COVID-19 lately?: YES");
+            } else
+            {
+                ctf.WriteLine("Have you been in contact with a person with COVID-19 lately?: NO");
+            }
+
+            if (yes3.CheckState == CheckState.Checked)
+            {
+                ctf.WriteLine("Are you feeling any sickness for the past few days?: YES");
+            }
+            else
+            {
+                ctf.WriteLine("Are you feeling any sickness for the past few days?: NO");
+            }
+
+            if (yes4.CheckState == CheckState.Checked)
+            {
+                ctf.WriteLine("Are you vaccinated?: YES");
+            }
+            else
+            {
+                ctf.WriteLine("Are you vaccinated?: NO");
+            }
+
+            if (yes5.CheckState == CheckState.Checked)
+            {
+                ctf.WriteLine("Have you been Diagnosed with COVID-19?: YES");
+            }
+            else
+            {
+                ctf.WriteLine("Have you been Diagnosed with COVID-19?: NO");
+            }
             
-            
-            
-            
-            
+            ctf.WriteLine("__________________________________________________");
+            ctf.WriteLine("");
             ctf.Close();
 
+            MessageBox.Show("Form Submitted!");
+
         }
+
+
     }
 }
