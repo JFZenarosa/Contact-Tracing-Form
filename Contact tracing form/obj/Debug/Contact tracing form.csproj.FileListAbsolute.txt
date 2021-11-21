@@ -1,0 +1,10 @@
+X:\School\Visual Studio\Repository\Contact tracing form\Contact tracing form\bin\Debug\Contact tracing form.exe.config
+X:\School\Visual Studio\Repository\Contact tracing form\Contact tracing form\bin\Debug\Contact tracing form.exe
+X:\School\Visual Studio\Repository\Contact tracing form\Contact tracing form\bin\Debug\Contact tracing form.pdb
+X:\School\Visual Studio\Repository\Contact tracing form\Contact tracing form\obj\Debug\Contact tracing form.csproj.AssemblyReference.cache
+X:\School\Visual Studio\Repository\Contact tracing form\Contact tracing form\obj\Debug\Contact_tracing_form.Form1.resources
+X:\School\Visual Studio\Repository\Contact tracing form\Contact tracing form\obj\Debug\Contact_tracing_form.Properties.Resources.resources
+X:\School\Visual Studio\Repository\Contact tracing form\Contact tracing form\obj\Debug\Contact tracing form.csproj.GenerateResource.cache
+X:\School\Visual Studio\Repository\Contact tracing form\Contact tracing form\obj\Debug\Contact tracing form.csproj.CoreCompileInputs.cache
+X:\School\Visual Studio\Repository\Contact tracing form\Contact tracing form\obj\Debug\Contact tracing form.exe
+X:\School\Visual Studio\Repository\Contact tracing form\Contact tracing form\obj\Debug\Contact tracing form.pdb
