@@ -68,6 +68,7 @@ namespace Contact_tracing_form
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Brown;
             this.label1.Location = new System.Drawing.Point(105, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(582, 37);
@@ -174,6 +175,7 @@ namespace Contact_tracing_form
             this.button1.TabIndex = 12;
             this.button1.Text = "Clear";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -382,6 +384,7 @@ namespace Contact_tracing_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(800, 627);
             this.Controls.Add(this.dateTimePicker);
             this.Controls.Add(this.label13);

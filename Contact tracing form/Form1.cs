@@ -91,5 +91,26 @@ namespace Contact_tracing_form
         {
             timer.Text = DateTime.Now.ToLongTimeString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            nametxt.Clear();
+            addresstxt.Clear();
+            emailtxt.Clear();
+            contacttxt.Clear();
+
+            yes1.Checked = false;
+            yes2.Checked = false;
+            yes3.Checked = false;
+            yes4.Checked = false;
+            yes5.Checked = false;
+
+            no1.Checked = false;
+            no2.Checked = false;
+            no3.Checked = false;
+            no4.Checked = false;
+            no5.Checked = false;
+
+        }
     }
 }
