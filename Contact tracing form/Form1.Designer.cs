@@ -421,7 +421,7 @@ namespace Contact_tracing_form
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Contact Tracing Form";
             this.ResumeLayout(false);
             this.PerformLayout();
 
